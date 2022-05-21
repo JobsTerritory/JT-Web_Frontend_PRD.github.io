@@ -1,0 +1,119 @@
+.start{
+    width: 30vw;
+    height: 30vw;
+    background-color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    text-align: center;
+    padding-top: 10vmax;
+}
+
+.st{
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 3vw;
+    color: #E9158E;
+
+
+}
+.start-btn{
+    border: none;
+    color: white;
+    background-color: #E9158E;
+    border-radius:5px;
+    width: 5vw;
+    height: 5vh;
+    padding: 6px;
+    font-size: large;
+}
+.quiz{
+    background-color: #FFE6F4;
+    display: flex ;
+    flex-direction: column;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30vw;
+    height: fit-content;
+    text-align: center;
+}
+.options
+{
+width: 25vw;
+height: fit-content;
+    align-self: center;
+    border: none;
+    background-color: white;    
+    margin-bottom: 1vw;
+    padding: 8px;
+    border-radius: 25px;
+}
+.options:hover{
+    background-color: #E9158E;
+}
+.question
+{
+    font-size: 30px;
+    color: #E9158E;
+}
+.end
+{
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 30vw;
+height: 30vw;
+background-color: white;
+text-align: center;
+padding-top: 10vmax;
+color: #E9158E;
+}
+.done{
+    border: none;
+    color: white;
+    background-color: #E9158E;
+    border-radius:5px;
+    width: 5vw;
+    height: 5vh;
+    padding: 6px;
+    font-size: large;
+}
+/* ------------------Mobile Design----------------- */
+@media only screen and  (max-width:480px) {
+    .start{
+        width: 20em;
+        height: 25em;
+    }
+    .st{
+        font-size: 2em;
+    }
+    .start-btn{
+        width: fit-content;
+    }
+    .quiz{
+        width: 25em;
+    }
+    .options{
+        width: 20em;
+        margin-bottom: 1em;
+
+    }
+    .end
+    {
+height: 25em;
+width: 25em;
+    }
+    .done{
+        width: fit-content;
+    }
+    .etxt{
+font-size: 2em;
+    }
+    .etxt2{
+font-size: 1.5em;
+    }
+}

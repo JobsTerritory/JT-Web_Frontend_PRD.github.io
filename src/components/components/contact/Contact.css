@@ -1,0 +1,115 @@
+.bd-placeholder-img 
+{
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+}
+@media (min-width: 768px) 
+{
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+}
+
+.layer-3
+{
+width: 100%;
+height: 100vh;
+background-color:#ECAAD0 ;
+opacity: 48%;
+position: absolute;
+}
+
+textarea 
+{
+  border-radius: 0;
+  margin-bottom: 15px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  text-align: center;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input {
+  margin-bottom: -5px;
+  border-radius: 0;
+}
+.h{
+    color: #E9158E;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 3em;
+} 
+
+
+.btn-color{
+  width: fit-content;
+    margin: 0;
+    background-color: #e9158e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 7px;
+    position: relative;
+    top: 50%;
+    /* left: 50%; */
+    transform: translate(-10%, -50%);
+}
+.inputs{
+      width: 30vw ;
+      border: none;
+      padding: 5px;
+      margin-bottom: 1vw;
+
+}
+.inputs:focus{
+  /* border :none ;   */
+      box-shadow: none;
+    outline: 0;
+}
+.back {
+  background-color:red ;
+}
+.card{
+  position: relative;
+width: fit-content;
+top: 50%;
+left: 50%;
+/* height: 80vh; */
+transform: translate(-50%,0%);
+    PADDING-TOP: 2VW;
+    PADDING-LEFT: 2VW;
+    PADDING-RIGHT: 2VW
+}
+/*-------------------------------------- Mobile Version------------------------------ */
+
+@media only screen and (max-width:480px){
+  .h
+{
+font-size: 3em;
+}
+.inputs
+{
+    width: 19em;
+    text-align: center;
+}
+.card{
+  width: 23em;
+  position: relative;
+}
+}
