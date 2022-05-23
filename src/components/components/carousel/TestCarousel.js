@@ -14,6 +14,7 @@ setdata(getdata.data);
 }
 useEffect(() => {
   testData();
+  console.log(data)
 },[])
   return (
      <div>
@@ -31,6 +32,7 @@ useEffect(() => {
       style={{borderRadius:'50%'}}
       />
       <h3 >{item.name}</h3>
+      <h3>{item.designation}</h3>
       <p style={{fontSize:'1.5em'}}>{item.review}</p>
   </Carousel.Item>
   )
@@ -50,6 +52,7 @@ useEffect(() => {
       style={{borderRadius:'50%'}}
       />
       <h3 >{item.name}</h3>
+      <h3>{item.designation}</h3>
       <p style={{fontSize:'1.5em'}}>{item.review}</p>
   </Carousel.Item>
   )

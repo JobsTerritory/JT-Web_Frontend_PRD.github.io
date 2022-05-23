@@ -31,7 +31,7 @@ return (
       />
       <h3 >{item.name}</h3>
             <h4>{item.designation}</h4>
-
+            <h4>{item.company}</h4>
       <p style={{fontSize:'1.5em'}}>{item.review}</p>
   </Carousel.Item>
   )
@@ -53,6 +53,7 @@ return (
       />
       <h3 className='fontlink'>{item.name}</h3>
       <h4>{item.designation}</h4>
+      <h4>{item.company}</h4>
       <p style={{fontSize:'1.5em'}}>{item.review}</p>
   </Carousel.Item>
   )

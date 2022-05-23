@@ -199,8 +199,8 @@ height: 23em;
 }
 .details
 {
-        font-size: 20px;
-        padding: 5em;
+        font-size: 8vw;
+        text-align: center;
 }
 .ro{
  flex-direction: column;
@@ -216,17 +216,18 @@ height: 23em;
     width: 9em;
 }
 .txt{
-    font-size: small;
+    font-size: 2vw;
 }
 }
 
 @media only screen and (max-width:768px)
 {
     .txt{
-        font-size: 1.5em;
+        font-size: 3vw;
     }
     .content{
-        font-size: 2vw;
+        font-size: 3vw;
+        padding: 1vw;
     }
     .image{
         height: 27%;
