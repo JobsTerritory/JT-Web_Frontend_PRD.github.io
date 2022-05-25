@@ -15,10 +15,10 @@ const Home2nd = () => {
           <div className='Home-2-img-bg'>
           <img className='Home2ndimg' src={img1} />
           </div>
-          <div className='fontLink Home2ndtitle'>MACHINE LEARNING (AI)</div>
+          <div className='fontLink Home2ndtitle' style={{marginLeft:'3.2vw'}}>MACHINE LEARNING (AI)</div>
           <div style={{maxWidth:'373px', }}>
           <div className='fontLink Home2nddesc' >Find and attract candidates</div>
-          <p className='Home2ndSumm' >At the time of job listing, our AI-powered sourcing generates the list of the best prospective candidates as per the skill requirement.
+          <p className='Home2ndSumm' style={{width:'12vw'}} >At the time of job listing, our AI-powered sourcing generates the list of the best prospective candidates as per the skill requirement.
 </p>
           </div>
         </div>

@@ -1,22 +1,23 @@
 import React, { useState } from 'react'
 import { questions } from './questions';
 import './quiz.css'
+import axios from 'axios';
 
 
-const Quiz = () => {
+const Quiz = (props) => {
     const [start,setstart]= useState(true);
     const [count,setCount] = useState(0);
-    const[Qd,setQd] = useState([]);
-    const[end,setEnd] = useState(false)
+    const[end,setEnd] = useState(false);
+const Qd = props.data;
+const setQd = props.setdata ;
 
-    const handleAnswerOptionClick = (answer,count) => 
+const handleAnswerOptionClick = (answer,count) =>
 {
 const newQd =  
-[
+{
   ...Qd,
-  {
-    [questions[count].questionText] : answer}
-]
+  [`question${count + 1}`]: answer ,
+}
 setQd(newQd);
         const flag = count + 1;
 
@@ -27,7 +28,8 @@ setQd(newQd);
         }
         else
         {
-console.log(Qd);
+// console.log(Qd);
+axios.post("https://jobsterritorybackend.herokuapp.com/contactUs",Qd)
 setEnd(true);
         }
 }
@@ -40,7 +42,7 @@ if(start)
   return(
     <>
   <div className='start'>
-    <p className='st'>Take This questionnaire for better assesement of your profile.</p>
+    <p className='st'>Take this questionnaire for better assesement of your profile.</p>
 <button  className="start-btn"onClick={handlestart}>Start</button> 
 </div>
         
@@ -50,11 +52,11 @@ if(start)
 else
 {
 if(!end){
-   return(
+  return(
         <div className='quiz'>
-            <p className="question">{questions[count].questionText}</p>
-                {questions[count].answerOptions.map((answerOption) => (
-							<button  className = 'options' onClick={() => handleAnswerOptionClick(answerOption.answerText,count)} >{answerOption.answerText}</button>
+            <p className="question" style={{paddingBottom:'1vw'}}>{questions[count].questionText}</p>
+                {questions[count].answerOptions.map((answerOption) =>(
+							<button  className = 'options' onClick={() =>handleAnswerOptionClick(answerOption.answerText,count)} >{answerOption.answerText}</button>
 						))}
 
         </div>
@@ -67,9 +69,10 @@ if(!end){
                   <p className="etxt2">We will contact you soon .</p>
                   <a href="#main"><button className='done'>Done</button></a>
         </div>
-       </>
+      </>
       )
-    } }
+    } 
+  }
 }
 
 export default Quiz;

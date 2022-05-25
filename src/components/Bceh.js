@@ -9,6 +9,10 @@ import bgImg from "../images/bgImg.png"
 import HypeDRM from './HypeDRM'
 import OurClients from './OurClients'
 import { BrowserView, MobileView } from 'react-device-detect'
+import img1 from '../images/hypeDRM/Group 422.png'
+import img2 from '../images/hypeDRM/Group 242.png'
+import img4 from '../images/hypeDRM/Group 423.png'
+
 const Bceh = () => {
   return (
     <div>
@@ -66,7 +70,28 @@ agreement
                 </div>
                 <img className='drm-img-bg' src={bgimgdrm} ></img>
               </div>
-              <HypeDRM/>
+              {/* <HypeDRM/> */}
+               <div>
+              <div className='fontLink ind-we-cater1'>WHAT'S THE HYPE BEHIND JOB TERRITORY'S DRM</div>
+              <div className="fontlink container" style={{color:"#535353",marginLeft:'13vw'}}>
+  <div className="row align-items-start">
+    <div className="col-3" style={{marginRight:'5vw'}}>
+      <img className='ind-we-cater-icon' src={img1} style={{marginBottom:'-3vw'}}></img>
+      <h5 style={{fontSize:'1.7em',fontWeight:'bold'}}>Hire as many as you want through monthly </h5>
+    </div>
+    <div className="col-3" style={{marginRight:'5vw'}}>
+    <img className='ind-we-cater-icon' src={img2} style={{marginBottom:'-3vw'}} ></img>
+          <h5 style={{fontSize:'1.7em',fontWeight:'bold'}}>Get a privilege to choose the best resources and personnel for your </h5>
+
+    </div>
+      <div className="col-3" style={{marginRight:'5vw'}}>
+    <img className='ind-we-cater-icon' src={img4}  style={{marginBottom:'-3vw'}}></img>
+          <h5 style={{fontSize:'1.7em',fontWeight:'bold'}}>No more middleman; interact with your dedicated   </h5>
+
+  </div>
+  </div>
+</div>
+    </div>
               <IndustryWeCater/>
               <TestimonialCar />
               

@@ -14,7 +14,7 @@ import { Footer } from '../footer/footer'
 const RecrServices = () => {
   return (
     
-    <div  style={{backgroundColor:'#F1F1F1',width:"100vw",height:"100vh", marginLeft:"-0.5vw",marginTop:"-5px"}}  >
+    <div  style={{backgroundColor:'#F1F1F1',width:"100vw",height:"100vh ", marginLeft:"-0.5vw",marginTop:"-5px"}}  >
       
               <Navbar nav_txt_col="black" btn_color="#FFC600" nav_drop_color="black" />
               <BrowserView>
@@ -25,7 +25,7 @@ const RecrServices = () => {
                   <Imgrecrbtn img_url={btnImg3} img_label='Leadership Hiring' pglocation='leadershiphiring' />
                 </div>
                 <div className='col md-6' style={{marginTop:"4vw",marginLeft:'5vw'}}>
-                              <h1 style={{color:"black", alignItems:"center"}}>RECRUITMENT <span style={{textDecoration:'underline #FFC600'}}>SERVICES</span></h1>
+                              <h1 style={{color:"black", alignItems:"center"}}>RECRUITMENT SERVICES</h1>
                               <br/>
                               <p style={{color:"black", fontSize:"1.5em", maxWidth:"30vw",lineHeight:'2em'}}>
                                 Jobs territory inculcates technology-driven recruiting services. Through our huge database, we allocate the most suitable candidates. This works best with both startups and large scale businesses.   

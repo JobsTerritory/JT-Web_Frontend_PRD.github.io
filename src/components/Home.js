@@ -17,8 +17,8 @@ const Home = () => {
               <Navbar btn_color='white' nav_txt_col='black'/>
               <div className='row'>
                         <div className='col md-1 homediv1' >
-                                  <p className='fontLink homepara1'>Bridging between Seekers and Seeking</p>
-                                  <p className='fontLink homepara2' >A recruiting site where Amazing talent meets Inspiring Visionary</p>
+                                  <p className='fontLink homepara1'>Bridging between <p style={{fontSize:'2.5vw', maxWidht:'30vw', paddingTop:'1vw'}}> " Seekers and Seeking " </p></p>
+                                  <p className='fontLink homepara2' >A recruiting site where Amazing talent meets Inspiring Visionary.</p>
                                   <p className='fontLink homepara3'>Get ready to cumulate your Dream Team with us!</p>
 
                         </div>

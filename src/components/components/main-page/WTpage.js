@@ -30,7 +30,7 @@ const WTpage = () => {
         <section className="sec-2">
           <p className='heading'>WHO WE ARE</p>
           <p className='intro'>
-            With the motto of "Empowered Women,Empowers Women",Jobs Territory is a recruiter company that not only unravels the pool of talented applicants but enable women to kickstart/reignite their careers by offering remote recruiting job oppurtunities. We're on a mission to help as many "Super Women" as possible .
+            With the motto of<span style={{fontWeight:600}}>"Empowered Women,Empowers Women"</span>, Jobs Territory is a recruiter company that not only unravels the pool of talented applicants but also enables women to<span style={{fontWeight:'600'}}>kickstart/reignite</span> their careers by offering remote recruiting job oppurtunities. We're on a mission to help as many<span style={{fontWeight:600}}>"Super Women"</span> as possible .
           </p>
           <div className="vision">
             <div className="content">

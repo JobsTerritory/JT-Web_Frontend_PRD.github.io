@@ -34,16 +34,15 @@ return (
                     </div>
                     <div className="footer-column col-md-4 col-sm-6 col-xs-12">
                         <div id="pages-2" className="footer-widget widget_pages c1">
-                            <h2 >Contact Address</h2>
-                            <h4 >Jobs Territory</h4>
-                            <div><i className="fa fa-map-marker-text ">
+                            <p style={{fontWeight:'bold',fontSize:'2em',marginBottom:'1vw'}}>Jobs Territory</p>
+                            <div><i className="fa fa-map-marker-text " style={{fontSize:'1.5em',marginBottom:'1vw'}}>
                         
                                 <span className="fontlink g1">1st floor,  110, Cambridge Rd,Ulsoor, Bengaluru, Karnataka 560008. </span></i></div>
-                            <div><i className="fa fa-envelope ">
+                            <div><i className="fa fa-envelope " style={{fontSize:'1.5em',marginBottom:'1vw'}}>
                             
                                 <span className="fontlink">careers@jobsterritory.com</span></i></div>
-                            <div><i className="fa fa-phone " >
-                                <span className="fontlink">+91 9686116232</span> </i></div>
+                            <div><i className="fa fa-phone "  style={{fontSize:'1.5em',marginBottom:'1vw'}}>
+                                <span className="fontlink" >+91 9686116232</span> </i></div>
                         </div>
                     </div>
                     {/* <!--Footer Column--> */}

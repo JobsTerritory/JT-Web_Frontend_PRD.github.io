@@ -9,13 +9,14 @@
    padding:0vw;
    font-size:3vw;
    font-weight:700;
+   text-shadow: -1px 0 black;
 }
 .ind-we-cater{
   text-align: center;
-  
-  padding-top: 8vw;
-  margin-bottom: 10vw;
-  font-size: 5vw;
+  margin-top: 1vw;
+  padding-top: 2vw;
+  margin-bottom: 3vw;
+  font-size: 4vw;
   font-weight: 500;
 }
 .ind-we-cater-icon{
@@ -40,12 +41,15 @@
   font-size:2vw;
   padding-left: 3vw;  
   width: 60vw;
+  padding-bottom: 1vw;
+  padding-top: 1vw;
 }
 .DRMdesc{
   color:black; 
   font-weight:400; 
   font-size:1.3vw; 
   padding-left: 3vw;
+  padding-bottom: 1vw;
   line-height:2vw;
 }
 
@@ -98,9 +102,10 @@
 }
 .drm-para{
   max-width:45vw; 
-  font-size:1.5vw; 
+  font-size:1.4vw; 
   color: #fff;
   line-height:2vw;
+  font-weight: bold;
   
 }
 .drm-img-bg{
@@ -191,6 +196,7 @@ element.style {
   background-color: #646261;
   padding: 1.5vw;
   border-radius: 30vw;
+  margin-top: 1vw;
 }
 .internalbtn2{
   background-color: #646261;
@@ -215,6 +221,7 @@ element.style {
   max-width:30vw;
   background-color:#FFC600;
   padding: 3vw;
+  margin-top: 2vw;
 }
 .list-heading{
   font-size:1.2vw;
@@ -255,42 +262,45 @@ element.style {
 }
 
 .homepara1{
-  font-size:3vw;
-  max-width:40vw;
+  font-size:2vw;
+  max-width:35vw;
   font-weight: 600;
   line-height:3vw;
+  text-align: center;
+  
 }
 .homepara2{
   margin-top:50px;
-  font-size:3vw;
+  font-size:1.8vw;
   max-width:40vw;
   font-weight:500;
   line-height:3vw;
 }
 .homepara3{
   font-size:1.7vw;
-  font-weight:400; 
+  font-weight:bold; 
   margin-bottom: 100px;
+  margin-top: 8vw;
 }
 
 .homeImg1{
-  width:25vw;height:20vw;margin-top:2vw;margin-left:-18vw; min-width:300px;
+  width:25vw;height:20vw;margin-top:2vw;margin-left:-10vw; min-width:300px;
 }
 
 .homeImg2{
   width:25vw;
   height:20vw;
-  margin-left:1vw; 
+  margin-left:10vw; 
   margin-top: -40px;
   min-width:300px;
 }
 
 .home2nd{
   background-color:white; 
-  margin-bottom:200px;
+  margin-bottom:5vw;
   align-items: center;
   text-align: center;
-
+margin-top: -10vw;
 }
 .home2ndHeading{
  font-size:3.47em;
@@ -318,6 +328,7 @@ element.style {
   font-weight:700;
    color:#C39700;
    font-size: 1.4vw;
+   margin-left: 1vw;
   
 }
  .Home2nddesc{
@@ -332,6 +343,9 @@ element.style {
   margin-top: 2vh;
   text-align: left;
   margin-left: 5vw;
+  width: 15vw;
+  text-align: left;
+  /* font-weight: bold; */
 }
 .Home-2-img-bg{
   height: 25vw;
@@ -520,6 +534,7 @@ height: 40vw;}
   .DRMtitle{
     font-size: 5vw;
     width: 100vw;
+    
   }
   .DRMdesc{
     font-size: 5vw;
@@ -541,6 +556,8 @@ height: 40vw;}
     text-align: center;
     padding-top: 2vw;
     font-size: 5vw;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+
   }
   .drm-img-bg{
     margin-top: 0vw;
@@ -565,6 +582,7 @@ height: 40vw;}
   }
   .ind-we-cater1{
     font-size: 5vw;
+    text-shadow: -1px 0 black;
   }
   .imginbtn{
     border-radius: 2vw;

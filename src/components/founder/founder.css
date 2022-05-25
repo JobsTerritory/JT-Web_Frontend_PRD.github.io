@@ -61,10 +61,13 @@ align-items:center;
     font-size: 2rem;
     font-weight: bolder;
     font-family: 'Montserrat', sans-serif;
+    margin-left: -12vw;
 }
 .text{
-    font-size: 2em;
+    font-size: 1.69vw;
         font-family: 'Montserrat', sans-serif;
+        
+        text-align: left;
         /* font-weight: bold; */
 
 }

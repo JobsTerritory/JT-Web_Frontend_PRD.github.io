@@ -124,7 +124,7 @@ const IndustryWeCater = () => {
         <button className='internalbtn btn' onClick={handlebtn2}>
 <img className='imginbtn' src={ibtn2}/>
     </button>
-    <h2 className='fontlink internal-btn-txt'>Retail</h2>
+    <h2 className='fontlink internal-btn-txt'>Healthcare</h2>
     </div>:null
 }
     </div>
@@ -153,7 +153,7 @@ const IndustryWeCater = () => {
     </div>
 
           <div>{
-                    txt1?<p className='ind-we-cater fontLink'  >Industries We Cater To</p>:null
+                    txt1?<p className='ind-we-cater fontLink'  >Industries we cater to</p>:null
           }    
           </div>
           <div style={{marginLeft:'-3vw'}}> {         

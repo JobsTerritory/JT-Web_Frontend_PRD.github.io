@@ -41,7 +41,7 @@ class Navbar extends Component {
                     <li className="dropdown-item"  style={{color:nav_drop_color}}>Founders Pledge</li>
 
               </Link>
-              <Link to = "/aboutus" aria-labelledby="navbarDropdown" style={{color:nav_txt_col}} >
+              <Link to = "/aboutus" aria-labelledby="navbarDropdown" style={{color:nav_txt_col,textDecoration:'none'}} >
               <li className="dropdown-item"  style={{color:nav_drop_color}}>About us</li>
 
               </Link>

@@ -28,10 +28,12 @@
 
 .img-abt
 {
-margin-top: 10em;
+margin-top: 6.5vw;
 height: 40vh;
 width: 40vw;
 float: right;
+justify-content: center;
+
 }
 .hd
 {
@@ -42,8 +44,9 @@ font-family: 'Montserrat', sans-serif;
 .abtxt
 {
     font-weight: normal;
-    font-size: 30px;
+    font-size: 1.6vw;
 font-family: 'Montserrat', sans-serif;
+min-width: 60vw;
 }
 
 .bg-3{
@@ -117,11 +120,12 @@ height: 30vh;
   font-weight: 500;
   font-size: 1.5vw;
   font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1em;
 }
 .det
 {
-  font-size: 1.5em;
-  line-height: 1em;
+  font-size: 1.3vw;
+  line-height: 1.5em;
 }
 .lead-0
 {
@@ -238,6 +242,7 @@ font-size: 2vw;
     padding: 5vw;
     line-height: 8vw;
     font-weight: 400;
+    font-size: 1em;
     
   }
   .leaderbg1{

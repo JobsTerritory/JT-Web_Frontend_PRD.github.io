@@ -17,10 +17,12 @@ const About = () => {
 <div className="ext">
        <p className='hd'>WHO WE ARE</p>
         <p className='abtxt'>
-"Jobs Territory" collaborates with the right workforce and offers an effective platform for efficient management and talent acquisition.
+            <span style={{fontWeight:'600'}}>
+"Jobs Territory"</span> collaborates with the right workforce and offers an effective platform for efficient Management and Talent Acquisition.
 </p>
 <p className='abtxt'>
-    At the end of the day, all that matters is if we can keep clients, candidates and employees happy and satisfied. Are you are goal-oriented, ambitious and searching for ways to obtain a competitive advantage? Congratulations! Your search has come to an end. We cordially invite us along on our roller coaster ride, where the journey is challenging but the thrill is remarkable. We as JT is known to build careers and organisation. 
+    At the end of the day, all that matters is if we can keep clients, candidates and employees happy and satisfied.
+    <p style={{paddingTop:'1vw'}}> Are you a goal-oriented, ambitious and searching for ways to obtain a competitive advantage?</p> Congratulations! Your search has come to an end. We cordially invite us along on our roller coaster ride, where the journey is challenging, however, thrill is remarkable.
 </p>
 </div>
  
@@ -63,10 +65,10 @@ const About = () => {
                 <p className='set'>Meet Our Leaders</p>
         <div className="lead">
             <div className="inf">
-                            <img src="images-2/ramesh.png" alt="" />
+                            <img src="images/founder.jpeg" alt="" />
 
                 <p className="name">
-Ramesh Jayaraman Alias
+Ramesh Jayaraman {'(RJ)'}
                 </p>
                 <p className="pos">
 Founder

@@ -30,7 +30,7 @@ return (<div>
     <Navbar btn_color = "#FFC600" style = {{backgroundColor:'#060b26'}}/>
 
 <div className="box">
-<img src="images-2/founder.png" alt="founder"  className='fndr'/>
+<img src="images/founder.jpeg" alt="founder"  className='fndr'/>
 </div>
 <div className="conten">
     <p className='head'>

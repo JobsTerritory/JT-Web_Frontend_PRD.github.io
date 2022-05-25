@@ -24,7 +24,7 @@ const Drm = () => {
                   </div>
 
                 </div>
-                <div className='col md-1'>
+                <div className='col md-1' >
                   <div className='list-container'>
                     <div className='list-heading'>How JT can help you fulfill your job 
 requirements</div>

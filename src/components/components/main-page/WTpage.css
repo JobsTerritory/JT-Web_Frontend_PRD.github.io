@@ -35,10 +35,10 @@ box-sizing: border-box;
 .intro{
     padding-left: 6vw;
     padding-right: 6vw;
-    line-height: 6vh;
-    letter-spacing: 0.3vmin;
-    text-align: justify;
-    font-size: 4vmin;
+    line-height: 3vw;
+    letter-spacing: 0.0vmin;
+    text-align: left;
+    font-size: 2vw;
 
 }
 .vision{
@@ -56,13 +56,14 @@ width: 60vw;
  text-align: left;
 width: 43vw;;
  height: fit-content;
- font-size: 1.3vw;
+ font-size: 1.5vw;
+ font-weight: 600;
 }
 .image
 {
     display: inline;
     position: relative;
-    right: 12%;
+    right: 10%;
     top: -19%;
     width: 23vw;
     height: 43%;
@@ -128,8 +129,9 @@ margin-bottom: 5vh;
         margin: 2vh;
 }
 .txt{
-    font-size: 2em;
+    font-size: 1.5vw;
     position: relative;
+    font-weight: 600;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -193,9 +195,10 @@ height: 23em;
     display: block;
     width: 20em;
     position: relative;
-    top: -52%;
+    top: -47%;
     right: -15%;
-    height: 13em;
+    /* height: 13em; */
+    /* height: 20%; */
 }
 .details
 {
@@ -218,6 +221,9 @@ height: 23em;
 .txt{
     font-size: 2vw;
 }
+.sec-2{
+    margin-bottom: 0;
+}
 }
 
 @media only screen and (max-width:768px)
@@ -230,6 +236,6 @@ height: 23em;
         padding: 1vw;
     }
     .image{
-        height: 27%;
+        height: 22%;
     }
 }

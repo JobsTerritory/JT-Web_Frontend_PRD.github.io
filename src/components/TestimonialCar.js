@@ -29,10 +29,11 @@ return (
       height='150vw'
       style={{borderRadius:'50%'}}
       />
-      <h3 >{item.name}</h3>
-            <h4>{item.designation}</h4>
-            <h4>{item.company}</h4>
-      <p style={{fontSize:'1.5em'}}>{item.review}</p>
+      <h4>{item.company}</h4>
+            
+      <p style={{fontSize:'1.5em'}}>"{item.review}"</p>
+      <h3  style={{textAlign:'right'}}>{item.name}</h3>
+            <h3 style={{textAlign:'right'}}>{item.designation}</h3>
   </Carousel.Item>
   )
   })}
@@ -51,9 +52,9 @@ return (
       height='150vw'
       style={{borderRadius:'50%'}}
       />
+      <h4>{item.company}</h4>
       <h3 className='fontlink'>{item.name}</h3>
       <h4>{item.designation}</h4>
-      <h4>{item.company}</h4>
       <p style={{fontSize:'1.5em'}}>{item.review}</p>
   </Carousel.Item>
   )

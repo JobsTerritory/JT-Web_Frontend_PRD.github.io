@@ -1,13 +1,13 @@
 .start{
     width: 30vw;
-    height: 30vw;
+    height: 25vw;
     background-color: white;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-60%);
     text-align: center;
-    padding-top: 10vmax;
+    padding-top: 5vmax;
 }
 
 .st{
@@ -26,7 +26,9 @@
     width: 5vw;
     height: 5vh;
     padding: 6px;
-    font-size: large;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 2vw;
 }
 .quiz{
     background-color: #FFE6F4;
@@ -36,9 +38,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 30vw;
+    width: 40vw;
     height: fit-content;
     text-align: center;
+    /* padding: 3vw; */
+    border-radius: 20px;
+    
 }
 .options
 {
@@ -50,14 +55,19 @@ height: fit-content;
     margin-bottom: 1vw;
     padding: 8px;
     border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 .options:hover{
     background-color: #E9158E;
 }
 .question
 {
-    font-size: 30px;
+    font-size: 2em;
     color: #E9158E;
+    font-weight: bold;
+    padding-top: 2vw;
+
 }
 .end
 {
@@ -66,11 +76,13 @@ top: 50%;
 left: 50%;
 transform: translate(-50%,-50%);
 width: 30vw;
-height: 30vw;
+height: fit-content;
 background-color: white;
 text-align: center;
 padding-top: 10vmax;
+padding: 5vw;
 color: #E9158E;
+font-size: 1.3vw;
 }
 .done{
     border: none;
@@ -80,7 +92,8 @@ color: #E9158E;
     width: 5vw;
     height: 5vh;
     padding: 6px;
-    font-size: large;
+    /* font-size: 1.5em; */
+    font-weight: bold;
 }
 /* ------------------Mobile Design----------------- */
 @media only screen and  (max-width:480px) {

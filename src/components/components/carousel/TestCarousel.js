@@ -31,9 +31,9 @@ useEffect(() => {
       height='150vw'
       style={{borderRadius:'50%'}}
       />
-      <h3 >{item.name}</h3>
-      <h3>{item.designation}</h3>
-      <p style={{fontSize:'1.5em'}}>{item.review}</p>
+      <p style={{fontSize:'1.5vw',color:'white',fontWeight:'600'}}>{item.review}</p>
+      <h3 style={{fontWeight:'600', textAlign:'right'}}>{item.name}</h3>
+      <h3  style={{fontWeight:'600', textAlign:'right'}}>{item.designation}</h3>
   </Carousel.Item>
   )
   })}

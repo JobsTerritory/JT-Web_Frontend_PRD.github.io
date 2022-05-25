@@ -8,6 +8,11 @@ import IndustryWeCater from './IndustryWeCater'
 import bgImg from "../images/bgImg.png"
 import HypeDRM from './HypeDRM'
 import OurClients from './OurClients'
+import img1 from '../images/hypeDRM/Group 422.png'
+import img2 from '../images/hypeDRM/Group 242.png'
+import img3 from '../images/hypeDRM/Group 241.png'
+import img7 from '../images/hypeDRM/Group 426.png'
+
 import { BrowserView, MobileView } from 'react-device-detect'
 const LeadershipHiring = () => {
   return (
@@ -74,7 +79,35 @@ agreement
                 </div>
                 <img className='drm-img-bg' src={bgimgdrm} ></img>
               </div>
-              <HypeDRM/>
+              {/* <HypeDRM/> */}
+              <div className='fontLink ind-we-cater1'>WHAT'S THE HYPE BEHIND JOB TERRITORY'S DRM</div>
+              <div className="fontlink container" style={{color:"#535353",marginLeft:'13vw'}}>
+  <div className="row align-items-start">
+    <div className="col-3" style={{marginRight:'5vw'}}>
+      <img className='ind-we-cater-icon' src={img1} style={{marginBottom:'-3vw'}}></img>
+      <h5 style={{fontWeight:'bold'}}>Hire as many as you want through monthly </h5>
+    </div>
+    <div className="col-3" style={{marginRight:'5vw'}}>
+    <img className='ind-we-cater-icon' src={img2} style={{marginBottom:'-3vw'}} ></img>
+          <h5 style={{fontWeight:'bold'}}>Get a privilege to choose the best resources and personnel for your </h5>
+
+    </div>
+    <div className="col-3" >
+    <img className='ind-we-cater-icon' src={img3} style={{marginBottom:'-3vw'}} ></img>
+          <h5 style={{fontWeight:'bold'}}>HR Expertise Guidance </h5>
+
+    </div>
+  </div>
+  <div className="row align-items-center">
+    
+    
+  <div className="col-3" style={{verticalAlign:'middle',marginLeft:'27vw'}}>
+    <img className='ind-we-cater-icon'  src={img7} style={{marginBottom:'-3vw'}}></img>
+          <h5 style={{fontWeight:'bold'}}>Completes all your hiring</h5>
+
+    </div>
+  </div>
+</div>
               <IndustryWeCater/>
               <TestimonialCar />
               
