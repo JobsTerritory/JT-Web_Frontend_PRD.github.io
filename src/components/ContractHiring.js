@@ -81,7 +81,7 @@ agreement
                 <img className='drm-img-bg' src={bgimgdrm} ></img>
               </div>
               {/* <HypeDRM/> */}
-              <div className='fontLink ind-we-cater1'>WHAT'S THE HYPE BEHIND JOB TERRITORY'S DRM</div>
+              <div className='fontLink ind-we-cater1'>WHAT'S THE HYPE BEHIND JOB TERRITORY'S GIG/CONTRACT HIRING</div>
               <div className="fontlink container" style={{color:"#535353",marginLeft:'13vw'}}>
   <div className="row align-items-start">
     <div className="col-3" style={{marginRight:'5vw'}}>
@@ -165,7 +165,35 @@ agreement
 
 </p>
                 </div>
-                <HypeDRM/>
+                <div className='fontLink ind-we-cater1'>WHAT'S THE HYPE BEHIND JOB TERRITORY'S GIG/CONTRACT HIRING</div>
+              <div className="fontlink container" style={{color:"#535353",marginLeft:'8vw'}}>
+  <div className="row align-items-start">
+    <div className="col-5" style={{marginRight:'5vw'}}>
+      <img className='ind-we-cater-icon' src={img1}></img>
+      <h5>Hire as many as you want through monthly </h5>
+    </div>
+    <div className="col-5" style={{marginRight:'5vw'}}>
+    <img className='ind-we-cater-icon' src={img2} ></img>
+          <h5>Get a privilege to choose the best resources and personnel for your </h5>
+
+    </div>
+  </div>
+  <div className="row align-items-start">
+    
+    
+  <div className="col-5" >
+    <img className='ind-we-cater-icon'  src={img7} ></img>
+          <h5>Completes all your hiring</h5>
+
+    </div>
+    <div className="col-5" >
+    <img className='ind-we-cater-icon' src={img3} ></img>
+          <h5>HR expertise guidance </h5>
+
+    </div>
+  </div>
+  
+  </div>
                 <IndustryWeCater />
                 <TestimonialCar/>
               </MobileView>

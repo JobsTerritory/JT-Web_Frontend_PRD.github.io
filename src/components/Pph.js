@@ -77,7 +77,7 @@ agreement
               </div>
               {/* <HypeDRM/> */}
               <div className='fontLink ind-we-cater1' style={{    textShadow: '-1px 0 black'
-}}>WHAT'S THE HYPE BEHIND JT'S PAY PER HIRE</div>
+}}>WHAT'S THE HYPE BEHIND JOB TERRITORY'S PAY PER HIRE</div>
               <div className="fontlink container" style={{color:"#535353",marginLeft:'13vw'}}>
   <div className="row align-items-start" >
     <div className="col-3" style={{marginRight:'5vw'}}>
@@ -155,32 +155,30 @@ agreement
 </p>
                 </div>
                 {/* <HypeDRM/> */}
-                <div className='fontLink ind-we-cater1'>WHAT'S THE HYPE BEHIND JOB TERRITORY'S DRM</div>
-              <div className="fontlink container" style={{color:"#535353"}}>
-  <div className="row align-items-start">
-    <div className="col-3" style={{marginRight:'5vw'}}>
-      <img className='ind-we-cater-icon' src={img1} style={{marginBottom:'-3vw'}}></img>
-      <h5>Hire as many as you want through monthly </h5>
-    </div>
+                <div className='fontLink ind-we-cater1'>WHAT'S THE HYPE BEHIND JOB TERRITORY'S PAY PER HIRE</div>
+              <div className="fontlink container" style={{color:"#535353",marginLeft:'8VW'}}>
   
-  </div>
   <div className="row align-items-center">
-    <div className="col-3" style={{marginRight:'5vw'}}>
+    <div className="col-5" style={{marginRight:'5vw'}}>
     <img className='ind-we-cater-icon' src={img4} style={{marginBottom:'-3vw'}}></img>
           <h5>No more middleman; interact with your dedicated   </h5>
 
     </div>
-    <div className="col-3" style={{marginRight:'5vw'}}>
+    <div className="col-5" style={{marginRight:'5vw'}}>
     <img className='ind-we-cater-icon' src={img5} style={{marginBottom:'-3vw'}}></img>
           <h5>Exclusively skilled personnel {"&"} resources are set aside for your  </h5>
 
     </div>
   </div>
-  <div className="row align-items-end">
-    <div className="col-3" style={{marginRight:'5vw', marginLeft:'10vw'}}>
+  <div className="row align-items-start">
+    <div className="col-5" style={{marginRight:'5vw'}}>
     <img className='ind-we-cater-icon'  src={img7} ></img>
           <h5>Completes all your hiring</h5>
 
+    </div>
+    <div className="col-5" style={{marginRight:'5vw'}}>
+      <img className='ind-we-cater-icon' src={img1} style={{marginBottom:'-3vw'}}></img>
+      <h5>Hire as many as you want through monthly </h5>
     </div>
   </div>
 </div>

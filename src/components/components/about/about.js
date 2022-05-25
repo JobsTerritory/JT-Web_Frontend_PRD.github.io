@@ -65,7 +65,7 @@ const About = () => {
                 <p className='set'>Meet Our Leaders</p>
         <div className="lead">
             <div className="inf">
-                            <img src="images/founder.jpeg" alt="" />
+                            <img src="images-2/ramesh.png" alt="" />
 
                 <p className="name">
 Ramesh Jayaraman {'(RJ)'}

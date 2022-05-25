@@ -32,7 +32,7 @@ return (
         <p className='h'>Let's Connect</p>
         <div className="card"  style={{backgroundColor:'#FFE6F4'}}>
             {/* <div className="card-body"> */}
-                <form autoComplete='off' onSubmit={()=>{ 
+                <form autoComplete='off' onSubmit={()=>{ axios.post("https://jobsterritorybackend.herokuapp.com/contactUs",data);
                setvisibility(false)}} >
                     <div className="mb-4">
                         <input type="text" name = "name"className="inputs " placeholder="Your name" onChange={handlechange} required />
@@ -47,7 +47,7 @@ return (
                         <textarea cols="20" rows="5"  name = "message" className="inputs" placeholder="Leave a comment here" id="floatingTextarea2" onChange={handlechange} required></textarea>
                         {/* <label htmlFor="floatingTaxtarea2">Message</label> */}
                         </div>
-                    <button className="btn-color" type="submit">Submit</button>
+                    <button className="btn-color"  type="submit">Submit</button>
                 </form>
             </div>
         {/* </div> */}

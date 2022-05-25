@@ -42,6 +42,7 @@ if(start)
   return(
     <>
   <div className='start'>
+    <img src="images/Quesstionare.png" alt="" />
     <p className='st'>Take this questionnaire for better assesement of your profile.</p>
 <button  className="start-btn"onClick={handlestart}>Start</button> 
 </div>

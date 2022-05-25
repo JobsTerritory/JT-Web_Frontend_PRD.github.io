@@ -9,7 +9,12 @@
     text-align: center;
     padding-top: 5vmax;
 }
-
+.start img{
+    width: 15vw;
+    height: 15vw;
+    position: absolute;
+    z-index: -1;
+}
 .st{
     text-align: center;
     font-size: 2vw;
@@ -111,22 +116,26 @@ font-size: 1.3vw;
         width: 25em;
     }
     .options{
-        width: 20em;
+        width: 15em;
         margin-bottom: 1em;
 
     }
-    .end
-    {
-height: 25em;
-width: 25em;
-    }
+  
     .done{
-        width: fit-content;
+        width: 50%;
+    height: 30%;
+    font-size: 2em;
+    
     }
     .etxt{
 font-size: 2em;
     }
     .etxt2{
 font-size: 1.5em;
+    }
+    .start img{
+        width: 40%;
+        height: 40%;
+        z-index: -1;
     }
 }
