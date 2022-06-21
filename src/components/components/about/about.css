@@ -85,7 +85,7 @@
   text-align: left;
   line-height: 20px;
   width: 45vw;
-  height: 30vh;
+  height: auto;
   padding: 30px;
 }
 .inf img {
@@ -121,7 +121,7 @@
   text-align: left;
   line-height: 20px;
   width: 45vw;
-  height: 30vh;
+  height: auto;
   padding: 30px;
 }
 .inf-0 img {
@@ -233,4 +233,59 @@
     padding-top: 5vw;
     text-align: center;
   }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+  .abtxt {
+    min-width: 0px;
+    font-size: 2.2vw;
+  }
+
+  .hd {
+    font-size: 5vw;
+  }
+  .img-abt {
+    margin-top: 3vw;
+    height: 25vh;
+    width: 56vw;
+    float: right;
+    justify-content: center;
+  }
+  .set {
+    font-size: 3vw;
+  }
+
+  .name {
+    font-weight: bold;
+    font-size: 3.5vw;
+    font-family: "Montserrat", sans-serif;
+}
+
+  .inf{
+    width: 65vw;
+  }
+  .inf-0{
+    width: 65vw;
+    margin-left: 30px;
+  }
+  .det{
+    font-size: 2.5vw;
+  }
+  .pos{
+    font-size: 3vw;
+  }
+  .inf img {
+    position: absolute;
+    right: 4vw;
+    float: right;
+    width: 32vw;
+    height: 22vh;
+}
+.inf-0 img{
+  position: absolute;
+  left: 4vw;
+  float: left;
+  width: 31vw;
+  height: 24vh;
+}
 }
