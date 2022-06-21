@@ -253,9 +253,9 @@ const PartTime = () => {
             </li>
           </ul>
         </div>
-        <div style={{ backgroundImage: `url(${bgImg})`,height: '82vw', background: 'linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62))'}}>
+        <div style={{ backgroundImage: `url(${bgImg})`,height: '62vw', background: 'linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62))'}}>
           <div className="drm-heading" style={{position: 'relative', left: '175px', top: '10px'}}>WHY SHOULD YOU OPT FOR IT</div>
-          <img className="drm-img-tablet" src={bgimgdrm}></img>
+          {/* <img className="drm-img-tablet" src={bgimgdrm}></img> */}
           <p className="drm-para-tablet" style={{top: '79rem'}}>
             With the help of Part-time employees, businesses can opt for
             flexible working hours at their convenience. Part-timers are helpful

@@ -4,7 +4,13 @@ import axios from "axios";
 import { Carousel } from "react-bootstrap";
 import { BrowserView, CustomView, deviceType } from "react-device-detect";
 import ReadMore from "./ReadMore";
-import JTLogo from '../images/JTLOGO.png'
+
+const clientLogo = {
+  "Big Basket": "../images/bigbasket.png",
+  "Nobroker": "../images/Nobroker.webp",
+  "Flobiz": "../images/Flobiz.jpg"
+}
+
 
 const TestimonialCar = () => {
   const [data, setdata] = useState([]);
@@ -43,15 +49,15 @@ const TestimonialCar = () => {
                     src={item.imageUrl}
                     alt="First slide"
                     className=" z-[3] mb-2 rounded-full w-36 h-36"
-                    style={{ marginRight: '31vw', height: '100px', width: '100px',top: '-100px'}}
+                    style={{ marginRight: '31vw', height: '120px', width: '120px', top: '-100px' }}
                   />
                   <img
-                  src={JTLogo}
-                  alt="JT Logo"
-                  className=" z-[3] mb-2 w-36 h-36"
-                  style={{marginLeft: '30vw', height: '90px', width: '90px', top: '-10px', position: 'absolute'}}
+                    src={clientLogo[item.company]}
+                    alt="Client Logo"
+                    className=" z-[3] mb-2 w-36 h-36"
+                    style={{ marginLeft: '30vw', height: '80px', width: '90px', top: '0px', position: 'absolute' }}
                   />
-                  <div className="mt-4" style={{ fontSize: "1.2em", marginLeft: '25px', marginRight: '15px'}}>
+                  <div className="mt-4" style={{ fontSize: "1.2em", marginLeft: '25px', marginRight: '15px' }}>
                     {item.review.length > 180 ? (
                       <ReadMore review={item.review} />
                     ) : (
@@ -60,10 +66,10 @@ const TestimonialCar = () => {
                   </div>
                   <div className="flex flex-col self-end">
                     <h3 className="self-end text-xl"
-                    style={{marginTop: '100px', fontSize: '1.05rem', fontWeight: 'bold'}}
+                      style={{ marginTop: '40px', fontSize: '1.05rem', fontWeight: 'bold' }}
                     >{item.name}</h3>
                     <h3 className="self-end text-lg"
-                    style={{fontSize: '1.05rem', fontWeight: 'bold'}}
+                      style={{ fontSize: '1.05rem', fontWeight: 'bold' }}
                     >{`${item.designation}, ${item.company}`}</h3>
                   </div>
                 </div>
@@ -75,7 +81,32 @@ const TestimonialCar = () => {
 
 
       <CustomView condition={deviceType === 'mobile'}>
-      <div className='mobile-carousel'>
+        <div className='mobile-carousel'>
+          <Carousel
+            className="rounded-lg"
+            style={{ backgroundColor: "#FFD600", width: "100%" }}
+          >
+            {data.map((item) => {
+              return (
+                <Carousel.Item>
+                  <img
+                    src={item.imageUrl}
+                    alt="First slide"
+                    width="98px"
+                    height="98px"
+                    style={{ borderRadius: "50%" }}
+                    className='client-image-mobile'
+                  />
+                  <div className='client-image-background' />
+                  <h3 className="fontlink client-name-mobile">{item.name}</h3>
+                  <p className="client-review-mobile">{item.review}</p>
+                </Carousel.Item>
+              );
+            })}
+          </Carousel>
+        </div>
+      </CustomView>
+      <CustomView condition={deviceType === 'tablet'}>
         <Carousel
           className="rounded-lg"
           style={{ backgroundColor: "#FFD600", width: "100%" }}
@@ -88,32 +119,7 @@ const TestimonialCar = () => {
                   alt="First slide"
                   width="98px"
                   height="98px"
-                  style={{ borderRadius: "50%"}}
-                  className='client-image-mobile'
-                />
-                <div className='client-image-background' />
-                <h3 className="fontlink client-name-mobile">{item.name}</h3>
-                <p className="client-review-mobile">{item.review}</p>
-              </Carousel.Item>
-            );
-          })}
-        </Carousel>
-        </div>
-      </CustomView>
-    <CustomView condition={deviceType === 'tablet'}>
-      <Carousel
-          className="rounded-lg"
-          style={{ backgroundColor: "#FFD600", width: "100%" }}
-        >
-          {data.map((item) => {
-            return (
-              <Carousel.Item>
-                <img
-                  src={item.imageUrl}
-                  alt="First slide"
-                  width="98px"
-                  height="98px"
-                  style={{ borderRadius: "50%"}}
+                  style={{ borderRadius: "50%" }}
                   className='client-image-tablet'
                 />
                 <div className='client-image-background-tablet' />
@@ -122,7 +128,7 @@ const TestimonialCar = () => {
               </Carousel.Item>
             );
           })}
-        </Carousel> 
+        </Carousel>
       </CustomView>
     </div>
   );

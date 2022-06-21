@@ -268,10 +268,10 @@ const Bceh = () => {
             </li>
           </ul>
         </div>
-        <div style={{ backgroundImage: `url(${bgImg})`, height: '82vw', background: 'linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62))' }}>
+        <div style={{ backgroundImage: `url(${bgImg})`, height: '55vw', background: 'linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62))' }}>
           <div className="drm-heading"
           style={{position: 'relative', left: '175px', top: '10px'}}>WHY SHOULD YOU OPT FOR IT</div>
-          <img className="drm-img-tablet" src={bgimgdrm} />
+          {/* <img className="drm-img-tablet" src={bgimgdrm} /> */}
           <p className="drm-para-tablet" style={{top: '83rem'}}>
             The professions' labour markets are wrecked up with plenty of jobs
             with the shifty talent to fill. With these constant obstacles,

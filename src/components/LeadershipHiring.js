@@ -280,11 +280,11 @@ const LeadershipHiring = () => {
             </li>
           </ul>
         </div>
-        <div style={{ backgroundImage: `url(${bgImg})`, height: '82vw', background: 'linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62))' }}>
+        <div style={{ backgroundImage: `url(${bgImg})`, height: '52vw', background: 'linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62))' }}>
           <div className="mt-40 drm-heading"
           style={{position: 'relative', left: '175px', top: '10px',marginTop: '0'}}>WHY SHOULD YOU OPT FOR IT</div>
-          <img className="drm-img-tablet" src={bgimgdrm}></img>
-          <p className="drm-para-tablet" style={{top: '82rem'}}>
+          {/* <img className="drm-img-tablet" src={bgimgdrm}></img> */}
+          <p className="drm-para-tablet" style={{top: '78rem'}}>
             As per the survey, employees with engaging supervising leaders gets
             39 per cent more inclined towards being active. Amidst all the work
             and chaos, competent workplace leadership is often underrated.

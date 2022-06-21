@@ -10,7 +10,7 @@ import img8 from "../images/hypeDRM/Group 427.png";
 import { BrowserView, deviceType, CustomView } from "react-device-detect";
 const HypeDRM = () => {
   return (
-    <div className="pb-10 pt-52" style={{marginTop: '-5vw'}}>
+    <div className="pb-10 pt-52" style={{marginTop: '-23vw'}}>
       <div className="fontLink ind-we-cater1">
         WHAT'S THE HYPE BEHIND JOB TERRITORY'S DRM?
       </div>

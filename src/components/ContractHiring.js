@@ -239,11 +239,11 @@ const ContractHiring = () => {
             </li>
           </ul>
         </div>
-        <div style={{ backgroundImage: `url(${bgImg})`,height: '82vw', background: 'linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62))'}}>
+        <div style={{ backgroundImage: `url(${bgImg})`,height: '53vw', background: 'linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62))'}}>
           <div className="drm-heading"
           style={{position: 'relative', left: '175px', top: '10px'}}>WHY SHOULD YOU OPT FOR IT</div>
-          <img className="drm-img-tablet" src={bgimgdrm}></img>
-          <p className="drm-para-tablet" style={{top: '81rem'}}>
+          {/* <img className="drm-img-tablet" src={bgimgdrm}></img> */}
+          <p className="drm-para-tablet" style={{top: '78rem'}}>
             Gig/Flexible Hiring is known to tackle immediate business
             requirements or create stand-by during emergencies. The firm can
             hire professionals with fine expertise and experience without any

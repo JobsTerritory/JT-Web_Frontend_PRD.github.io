@@ -761,16 +761,17 @@ color: #FFCF2B;
 
 .drm-para-tablet{
 position: absolute;
-left: 20px;
-top: 80rem;
+left: 40px;
+top: 84rem;
 text-align: left;
-width: 380px;
+width: 91%;
 font-family: 'Segoe UI';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 41px;
 color: #FFFFFF;
+margin-right: 15px;
 }
 
 .hype-drm-tablet h6{

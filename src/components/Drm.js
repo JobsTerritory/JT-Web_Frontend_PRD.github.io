@@ -187,12 +187,12 @@ const Drm = () => {
           </ul>
         </div>
         <div
-          style={{ backgroundImage: `url(${bgImg})`, height: '82vw', background: 'linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62))'}}
+          style={{ backgroundImage: `url(${bgImg})`, height: '66vw', background: 'linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62))'}}
           className="flex bg-image-tablet"
         >
           <div className="drm-heading-tablet">WHY SHOULD YOU OPT FOR IT?</div>
-          <img className="drm-img-tablet" src={bgimgdrm} alt=""></img>
-          <div className="font-semibold drm-para-tablet">
+          {/* <img className="drm-img-tablet" src={bgimgdrm} alt=""></img> */}
+          <div className="font-semibold drm-para-tablet" style={{top: '82rem'}}>
             A Dedicated Recruiter Model is an engaging provision, ensuring to
             fulfil all your HR requirements. It delves on flexibility, security
             and transparency for your business to run smoothly in this
