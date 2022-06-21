@@ -21,7 +21,7 @@ const TestCarousel = () => {
   }, []);
   return (
     <div className="pb-5">
-      <p className="p-2 thd">Team Testimonials</p>
+      <p className="p-2 thd">What JTians have to say</p>
       <BrowserView>
         <Carousel
           className="px-24 py-10 rounded-lg"
