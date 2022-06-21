@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+@layer components {
+  .nav-link {
+    @apply mr-10 text-2xl pt-4;
+  }
+}
