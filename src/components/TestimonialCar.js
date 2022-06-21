@@ -29,7 +29,7 @@ const TestimonialCar = () => {
         className="mb-10 text-3xl fontlink"
         style={{ textAlign: "center", fontWeight: "bold", marginTop: '5vw' }}
       >
-        Client Testimonials
+        WHAT OUR CLIENTS SAY ABOUT US
       </h1>
       <CustomView condition={deviceType === 'browser'}>
         <Carousel
