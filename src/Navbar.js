@@ -6,7 +6,7 @@ import Mnav from "./mNav/Mnav";
 
 class Navbar extends Component {
   render() {
-    let { btn_color, nav_txt_col, nav_drop_color,color } = this.props;
+    let { btn_color, nav_txt_col, nav_drop_color, color } = this.props;
     return (
       <>
         <BrowserView>
@@ -27,7 +27,7 @@ class Navbar extends Component {
                 className="collapse navbar-collapse pull-right"
                 id="navbarSupportedContent"
               >
-                <ul className="navbar-nav ml-10 mb-2 mb-lg-0">
+                <ul className="mb-2 ml-10 navbar-nav mb-lg-0">
                   <Link to="/" style={{ textDecoration: "none" }}>
                     <li className="nav-item">
                       <a
@@ -97,7 +97,7 @@ class Navbar extends Component {
           </nav>
         </BrowserView>
         <MobileView>
-          <Mnav color={color}/>
+          <Mnav color={color} />
         </MobileView>
       </>
     );
