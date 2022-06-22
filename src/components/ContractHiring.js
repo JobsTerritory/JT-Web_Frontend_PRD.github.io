@@ -8,7 +8,12 @@ import IndustryWeCater from "./IndustryWeCater";
 import bgImg from "../images/bgImg.png";
 import HypeDRM from "./HypeDRM";
 import OurClients from "./OurClients";
-import { BrowserView, MobileView } from "react-device-detect";
+import {
+  BrowserView,
+  CustomView,
+  deviceType,
+  MobileView,
+} from "react-device-detect";
 import img1 from "../images/hypeDRM/Group 422.png";
 import img2 from "../images/hypeDRM/Group 242.png";
 import img3 from "../images/hypeDRM/Group 241.png";
@@ -120,7 +125,7 @@ const ContractHiring = () => {
         <IndustryWeCater />
         <TestimonialCar />
       </BrowserView>
-      <MobileView>
+      <CustomView condition={deviceType === "mobile"}>
         <div className="fontLink DRMtitle">GIG/FLEXIBLE HIRING</div>
 
         <div className="fontLink DRMdesc">
@@ -201,7 +206,125 @@ const ContractHiring = () => {
         </div>
         <IndustryWeCater />
         <TestimonialCar />
-      </MobileView>
+      </CustomView>
+      <CustomView condition={deviceType === "tablet"}>
+        <div className="fontLink DRMtitle service-heading-tablet">
+          GIG/FLEXIBLE HIRING
+        </div>
+
+        <div
+          className="fontLink DRMdesc service-heading-para-tablet"
+          style={{ marginRight: "4vw" }}
+        >
+          Since 2020, 76 per cent of leaders incorporates flexible hiring a.k.a
+          Gig Hiring model to set up resilient human resources. The perfect
+          fusion of permanent and flexible hiring authenticates to be the best
+          staffing strategy by benefiting both businesses and staffing agencies.
+          It does not matter if you have a small start-up or a big
+          well-established business! With JT’s Gig/Flexible hiring, sign up new
+          personnel according to your budget and other requirements.
+        </div>
+        <div
+          className="list-container"
+          style={{ marginRight: "35vw", marginBottom: "3vw" }}
+        >
+          <div className="list-heading list-heading-tablet">
+            How JT can help you fulfill your job requirements
+          </div>
+          <ul style={{ marginLeft: "3px" }} className="list-item-tablet">
+            <li class="bi bi-check-circle-fill list-item">
+              Allocates you the best candidate as per your project requirement
+              through our huge database
+            </li>
+            <li class="bi bi-check-circle-fill list-item">
+              Saves your time by taking care of everything during the whole
+              hiring process.
+            </li>
+            <li class="bi bi-check-circle-fill list-item">
+              Conducts thorough background checks when considering potential
+              employees
+            </li>
+            <li class="bi bi-check-circle-fill list-item">
+              Our expertise and market knowledge proves to be priceless
+            </li>
+            <li class="bi bi-check-circle-fill list-item">
+              Negotiates on behalf of both parties to reach a mutual agreement
+            </li>
+          </ul>
+        </div>
+        <div
+          style={{
+            backgroundImage: `url(${bgImg})`,
+            height: "53vw",
+            background:
+              "linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62))",
+          }}
+        >
+          <div
+            className="drm-heading"
+            style={{ position: "relative", left: "175px", top: "10px" }}
+          >
+            WHY SHOULD YOU OPT FOR IT
+          </div>
+          {/* <img className="drm-img-tablet" src={bgimgdrm}></img> */}
+          <p className="drm-para-tablet" style={{ top: "78rem" }}>
+            Gig/Flexible Hiring is known to tackle immediate business
+            requirements or create stand-by during emergencies. The firm can
+            hire professionals with fine expertise and experience without any
+            long term hassle. Tapping down the costs of hiring and coaching new
+            personnel. Thence, keeping overall cost of the project at check.
+          </p>
+        </div>
+        <div className="fontLink ind-we-cater1">
+          WHAT'S THE HYPE BEHIND JOB TERRITORY'S GIG/CONTRACT HIRING
+        </div>
+        <div
+          className="container fontlink pph-drm-tablet"
+          style={{ color: "#535353", marginLeft: "8vw" }}
+        >
+          <div className="row align-items-start">
+            <div className="col-5" style={{ marginRight: "5vw" }}>
+              <img
+                className="ind-we-cater-icon"
+                src={img1}
+                style={{ marginLeft: "5vw" }}
+              ></img>
+              <h5>Hire as many as you want through monthly </h5>
+            </div>
+            <div className="col-5" style={{ marginRight: "5vw" }}>
+              <img
+                className="ind-we-cater-icon"
+                src={img2}
+                style={{ marginLeft: "9vw" }}
+              ></img>
+              <h5 style={{ marginLeft: "5vw" }}>
+                Get a privilege to choose the best resources and personnel for
+                your{" "}
+              </h5>
+            </div>
+          </div>
+          <div className="row align-items-start">
+            <div className="col-5">
+              <img
+                className="ind-we-cater-icon"
+                src={img7}
+                style={{ marginLeft: "7vw" }}
+              ></img>
+              <h5 style={{ marginLeft: "5vw" }}>Completes all your hiring</h5>
+            </div>
+            <div className="col-5">
+              <img
+                className="ind-we-cater-icon"
+                src={img3}
+                style={{ marginLeft: "13vw" }}
+              ></img>
+              <h5 style={{ marginLeft: "13vw" }}>HR expertise guidance </h5>
+            </div>
+          </div>
+        </div>
+        <IndustryWeCater />
+        <TestimonialCar />
+      </CustomView>
     </div>
   );
 };

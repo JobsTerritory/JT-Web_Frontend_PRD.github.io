@@ -243,6 +243,8 @@ element.style {
   background-image: linear-gradient(#ffd90f, #ffff);
   height: 100vh;
   width: 100vw;
+  margin-bottom: 1200px;
+  padding-bottom: 400px;
 }
 .homediv1 {
   margin-left: 120px;
@@ -536,25 +538,35 @@ element.style {
     font-size: 3vw;
   }
   .drm-heading {
+    position: absolute;
     text-align: center;
     padding-top: 2vw;
     font-size: 5vw;
+    margin-left: 14vw;
     /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
   }
   .drm-img-bg {
-    margin-top: 0vw;
-    margin-left: 10vw;
+    margin-top: 15vw;
+    margin-left: 25vw;
     height: 40vw;
     width: 60vw;
   }
   .drm-para {
-    font-size: 4vw;
-    line-height: 5vw;
-    text-align: left;
-    max-width: 100vw;
-    color: #fff;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    left: 15px;
+    width: 380px;
+    margin-right: 35px;
+    position: relative;
+    max-width: 100%;
+    margin-top: 70vw;
+    margin-left: -75vw;
+    margin-bottom: 5vw;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: justify;
+    color: #ffffff;
   }
   .ind-we-cater-icon {
     width: 40vw;
@@ -592,7 +604,50 @@ element.style {
   .iwc-comp-logo {
     width: 15vw;
   }
+  .client-image-mobile {
+    margin-left: 12px;
+    margin-top: 20px;
+    width: 98px;
+    height: 105px;
+    z-index: 1;
+  }
+  .client-name-mobile {
+    position: absolute;
+    margin-left: 45vw;
+    margin-top: -25px;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    /* identical to box height */
+
+    color: #000000;
+  }
+  .client-image-background {
+    width: 93px;
+    height: 99px;
+    margin-left: 15px;
+    margin-top: -150px;
+    background: #c4c4c4;
+  }
+  .client-review-mobile {
+    margin-left: 20vw;
+    margin-top: 15vw;
+    margin-right: 20vw;
+    margin-bottom: 13vw;
+
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: justify;
+
+    color: #3c3c3c;
+  }
 }
+
 @media (min-width: 481px) and (max-width: 767px) {
   .homeImg1 {
     width: 40vw;
@@ -630,4 +685,137 @@ element.style {
     max-width: 50vw;
     font-size: 50vw;
   }
+}
+
+.client-image-tablet {
+  margin-left: 13px;
+  margin-top: 15px;
+  width: 98px;
+  height: 105px;
+  z-index: 1;
+}
+
+.client-name-tablet {
+  position: absolute;
+  margin-left: 18vw;
+  margin-top: -25px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 35px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.client-image-background-tablet {
+  width: 93px;
+  height: 99px;
+  margin-left: 15px;
+  margin-top: -155px;
+  background: #c4c4c4;
+}
+
+.client-review-tablet {
+  margin-left: 12vw;
+  margin-top: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 8vw;
+
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: justify;
+
+  color: #3c3c3c;
+}
+
+.drm-img-tablet {
+  bottom: 150px;
+  position: relative;
+  height: 252px;
+  width: 346px;
+  margin-top: 40vw;
+  margin-left: 425px;
+}
+
+.drm-heading-tablet {
+  position: absolute;
+  text-align: center;
+  padding-top: 2vw;
+  font-size: 5vw;
+  margin-left: 24vw;
+
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #ffcf2b;
+}
+
+.drm-para-tablet {
+  position: absolute;
+  left: 40px;
+  top: 84rem;
+  text-align: left;
+  width: 91%;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 41px;
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+.hype-drm-tablet h6 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.service-heading-tablet {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.service-heading-para-tablet {
+  margin-right: 4vw;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: justify;
+}
+
+.list-heading-tablet {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.list-item-tablet li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+}
+
+.pph-drm-tablet h5 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #535353;
 }
