@@ -7,8 +7,8 @@ import ReadMore from "./ReadMore";
 
 const clientLogo = {
   "Big Basket": "../images/bigbasket.png",
-  "Nobroker": "../images/Nobroker.webp",
-  "Flobiz": "../images/Flobiz.jpg"
+  "Nobroker": "../images/Nobroker.png",
+  "Flobiz": "../images/Flobiz.png"
 }
 
 
@@ -55,7 +55,7 @@ const TestimonialCar = () => {
                     src={clientLogo[item.company]}
                     alt="Client Logo"
                     className=" z-[3] mb-2 w-36 h-36"
-                    style={{ marginLeft: '30vw', height: '80px', width: '90px', top: '0px', position: 'absolute' }}
+                    style={{ marginLeft: '30vw', height: '110px', width: '110px', top: '0px', position: 'absolute', borderRadius: '100px'}}
                   />
                   <div className="mt-4" style={{ fontSize: "1.2em", marginLeft: '25px', marginRight: '15px' }}>
                     {item.review.length > 180 ? (
