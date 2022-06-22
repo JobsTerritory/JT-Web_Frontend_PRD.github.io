@@ -50,21 +50,21 @@ const Home = () => {
       </CustomView>
 
       <CustomView condition={deviceType === "tablet"}>
-        <div className="w-full h-screen">
+        <div className="w-[100vw] pb-20">
           <Mnav btn_color="white" nav_txt_col="black" />
-          <div className="lg:pt-32 row">
+          <div className="lg:pt-32 ">
             <div className="flex flex-col mt-32 ml-10">
               <p className="text-2xl font-bold fontLink">
                 Bridging between Seekers and <br /> Seeking
               </p>
-              <div className="flex mt-10 space-x-2">
+              <div className="flex mt-10 space-x-4">
                 <p className="text-2xl leading-relaxed fontLink">
                   A recruiting site where <br /> Amazing talent meets <br />
                   Inspiring Visionary.
                 </p>
                 <img className="h-64 w-80" src={img1} alt=""></img>
               </div>
-              <div className="flex mt-10">
+              <div className="flex mt-8">
                 <p className="text-2xl leading-relaxed fontLink">
                   Get ready to cumulate your Dream <br /> Team with us!
                 </p>
@@ -74,11 +74,11 @@ const Home = () => {
           </div>
         </div>
         <div className="lg:h-[10vh]"></div>
-        {/* <Home2nd />
+        <Home2nd />
 
         <ClientsAlt />
         <Testimonialcar />
-        <Footer /> */}
+        <Footer />
       </CustomView>
     </div>
   );
