@@ -36,7 +36,7 @@ const Home = () => {
               </p>
             </div>
             <div className="col md-1" style={{ maxWidth: "650px" }}>
-              <img className="homeImg1" src={img1} alt=""></img>
+              <img className=" homeImg1" src={img1} alt=""></img>
               <img className="homeImg2" src={img2} alt=""></img>
             </div>
           </div>
