@@ -13,7 +13,7 @@ class Imgrecrbtn extends Component {
           <button className="recrbtn">
             <img className="btnImg1" src={img_url} />
           </button>
-          <h4 className="pt-2 recrtitle">{img_label}</h4>
+          <h4 className="pt-2 font-bold recrtitle">{img_label}</h4>
         </Link>
       </div>
     );

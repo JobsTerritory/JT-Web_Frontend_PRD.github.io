@@ -16,7 +16,7 @@ const Home = () => {
     <div className="desktopHome fontLink">
       <div className="h-screen">
         <Navbar btn_color="white" nav_txt_col="black" />
-        <div className="pt-8 row">
+        <div className="pt-32 row">
           <div className="col md-1 homediv1">
             <p className="fontLink homepara1">
               Bridging between
@@ -35,6 +35,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="h-[10vh]"></div>
       <Home2nd />
 
       <ClientsAlt />

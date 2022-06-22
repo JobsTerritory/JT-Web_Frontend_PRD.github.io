@@ -52,7 +52,7 @@ const RecrServices = () => {
           >
             <h1
               style={{ color: "black", alignItems: "center" }}
-              className="text-xl font-light ml-28"
+              className="ml-12 text-3xl font-bold"
             >
               RECRUITMENT SERVICES
             </h1>

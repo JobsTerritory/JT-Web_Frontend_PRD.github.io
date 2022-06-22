@@ -31,7 +31,7 @@ class Navbar extends Component {
                   <Link to="/" style={{ textDecoration: "none" }}>
                     <li className="nav-item">
                       <a
-                        className="nav-link active"
+                        className="font-bold nav-link active"
                         aria-current="page"
                         style={{ color: nav_txt_col }}
                       >
@@ -41,21 +41,27 @@ class Navbar extends Component {
                   </Link>
                   <Link to="/services" style={{ textDecoration: "none" }}>
                     <li className="nav-item">
-                      <a className="nav-link" style={{ color: nav_txt_col }}>
+                      <a
+                        className="font-bold nav-link"
+                        style={{ color: nav_txt_col }}
+                      >
                         Recruitment Services
                       </a>
                     </li>
                   </Link>
                   <Link to="/womenterritory" style={{ textDecoration: "none" }}>
                     <li className="nav-item">
-                      <a className="nav-link" style={{ color: nav_txt_col }}>
+                      <a
+                        className="font-bold nav-link"
+                        style={{ color: nav_txt_col }}
+                      >
                         Women's Territory
                       </a>
                     </li>
                   </Link>
                   <li className="nav-item dropdown">
                     <a
-                      className="nav-link dropdown-toggle"
+                      className="font-bold nav-link dropdown-toggle"
                       id="navbarDropdown"
                       role="button"
                       data-bs-toggle="dropdown"
@@ -71,7 +77,7 @@ class Navbar extends Component {
                     >
                       <Link to="/founder" style={{ textDecoration: "none" }}>
                         <li
-                          className="dropdown-item"
+                          className="font-bold dropdown-item"
                           style={{ color: nav_drop_color }}
                         >
                           Founders Pledge
@@ -83,7 +89,7 @@ class Navbar extends Component {
                         style={{ color: nav_txt_col, textDecoration: "none" }}
                       >
                         <li
-                          className="dropdown-item"
+                          className="font-bold dropdown-item"
                           style={{ color: nav_drop_color }}
                         >
                           About us
