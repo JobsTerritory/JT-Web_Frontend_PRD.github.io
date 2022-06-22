@@ -52,7 +52,7 @@ const TestimonialCar = () => {
                     style={{ marginRight: '31vw', height: '120px', width: '120px', top: '-100px' }}
                   />
                   <img
-                    src={clientLogo[item.company]}
+                    src={item.clientLogo}
                     alt="Client Logo"
                     className=" z-[3] mb-2 w-36 h-36"
                     style={{ marginLeft: '30vw', height: '110px', width: '110px', top: '0px', position: 'absolute', borderRadius: '100px'}}
