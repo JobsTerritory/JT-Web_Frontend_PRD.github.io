@@ -56,7 +56,7 @@ const TestimonialCar = () => {
                     }}
                   />
                   <img
-                    src={clientLogo[item.company]}
+                    src={item.clientLogo}
                     alt="Client Logo"
                     className=" z-[3] mb-2 w-36 h-36"
                     style={{
