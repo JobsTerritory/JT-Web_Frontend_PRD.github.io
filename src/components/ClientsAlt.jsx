@@ -20,8 +20,8 @@ function ClientsAlt() {
   };
 
   const responsive = {
-    0: { items: 3 },
-    568: { items: 4 },
+    0: { items: 2 },
+    568: { items: 3 },
     1024: { items: 6 },
   };
 

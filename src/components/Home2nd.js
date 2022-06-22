@@ -6,8 +6,8 @@ import img3 from "../images/Group421.png";
 const Home2nd = () => {
   return (
     <div className="pt-16 fontLink home2nd">
-      <div className="pb-5 home2ndHeading">
-        Make the right hires, faster with the world's leading recruiting
+      <div className="pb-5 text-5xl pt-[15vh] font-bold leading-relaxed">
+        Make the right hires, faster with <br /> the world's leading recruiting
         software
       </div>
 
