@@ -22,7 +22,8 @@ function ClientsAlt() {
   const responsive = {
     0: { items: 2 },
     568: { items: 3 },
-    1024: { items: 6 },
+    768: { items: 4 },
+    1200: { items: 6 },
   };
 
   const clientLogos = logos.map((logo) => {
@@ -42,9 +43,6 @@ function ClientsAlt() {
   const middleIndex = Math.ceil(clientLogos.length / 2);
   const firstHalf = clientLogos.splice(0, middleIndex);
   const secondHalf = clientLogos.splice(-middleIndex);
-
-  console.log(firstHalf);
-  console.log(secondHalf);
 
   return (
     <div style={{ backgroundImage: `url(${bgImg})`, padding: "3vw" }}>

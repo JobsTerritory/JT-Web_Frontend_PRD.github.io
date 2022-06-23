@@ -276,17 +276,17 @@ element.style {
 
 .homeImg1 {
   width: 25vw;
-  height: 20vw;
-  margin-top: 2vw;
+  height: 25vw;
+  margin-top: 1vw;
   margin-left: -10vw;
   min-width: 300px;
 }
 
 .homeImg2 {
   width: 25vw;
-  height: 20vw;
-  margin-left: 10vw;
-  margin-top: -40px;
+  height: 25vw;
+  margin-left: 4vw;
+  margin-top: -140px;
   min-width: 300px;
 }
 
