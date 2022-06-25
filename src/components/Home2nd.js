@@ -10,7 +10,7 @@ const Home2nd = () => {
       <CustomView
         condition={deviceType === "browser" || deviceType === "mobile"}
       >
-        <div className="pb-5   text-1xl text-10xl-lg ml-5 pt-[15vh] font-bold leading-relaxed">
+        <div className="pb-5 text-lg md:text-3xl lg:text-5xl ml-5 pt-[15vh] font-bold leading-relaxed">
           Make the right hires, faster with <br /> the world's leading
           recruiting software
         </div>
