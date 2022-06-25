@@ -5,10 +5,14 @@ import Navbar from "../../../Navbar";
 import { Footer } from "../../../footer/footer";
 import TestCarousel from "../carousel/TestCarousel";
 import { BrowserView, MobileView } from "react-device-detect";
+import WhatsappChat from "../../WhatsappChat";
+
 const WTpage = () => {
   return (
     <>
+    <WhatsappChat/>
       <div className="main-page">
+        
         <section className="sec-1" id="main">
           {/* image and get started button section */}
           <img src="images/bg-image.png" alt="img" className="bg-image" />

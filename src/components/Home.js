@@ -14,12 +14,15 @@ import {
   useMobileOrientation,
 } from "react-device-detect";
 import Mnav from "../mNav/Mnav";
+import WhatsappChat from "./WhatsappChat";
+
 
 const Home = () => {
   const { isLandscape } = useMobileOrientation();
 
   return (
     <div className="desktopHome fontLink">
+    <WhatsappChat/>
       <CustomView
         condition={deviceType === "browser" || deviceType === "mobile"}
       >
@@ -52,7 +55,7 @@ const Home = () => {
         <Testimonialcar />
         <Footer />
       </CustomView>
-
+      
       <CustomView condition={deviceType === "tablet" && !isLandscape}>
         <div className="w-[100vw] pb-20">
           <Mnav btn_color="white" nav_txt_col="black" />
@@ -88,6 +91,7 @@ const Home = () => {
       <CustomView condition={deviceType === "tablet" && isLandscape}>
         {" "}
         <div className="h-screen">
+       
           <Navbar btn_color="white" nav_txt_col="black" />
           <div className="lg:pt-32 row">
             <div className="col md-1 homediv1">
@@ -116,6 +120,7 @@ const Home = () => {
         <Testimonialcar />
         <Footer />
       </CustomView>
+      
     </div>
   );
 };

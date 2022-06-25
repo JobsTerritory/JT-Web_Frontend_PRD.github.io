@@ -16,9 +16,11 @@ import WTpage from '../src/components/components/main-page/WTpage';
 import Founder from '../src/components/founder/founder';
 import About from '../src/components/components/about/about'
 import React from 'react';
+
 function App() {
   return (
     <Router>
+      
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/services" element={<RecrServices/>} />
