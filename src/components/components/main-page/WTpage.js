@@ -49,7 +49,7 @@ const WTpage = () => {
           </div>
           <img
             className="image"
-            src="images/Women working with an Infant.png"
+            src="images/Women working with an Infant.gif"
             alt=""
           />
         </section>

@@ -26,7 +26,7 @@ const TestimonialCar = () => {
     <div style={{ marginTop: "2vw", marginBottom: "2vw", textAlign: "center" }}>
       <h1
         className="mb-10 text-3xl fontlink"
-        style={{ textAlign: "center", fontWeight: "bold", marginTop: "5vw" }}
+        style={{ textAlign: "center", fontWeight: "bold", marginTop: "10vw" }}
       >
         WHAT OUR CLIENTS SAY ABOUT US
       </h1>
@@ -124,6 +124,7 @@ const TestimonialCar = () => {
                   />
                   <div className="client-image-background" />
                   <h3 className="fontlink client-name-mobile">{item.name}</h3>
+                  <h4 className="fontlink  client-desig-mobile">{item.company},{item.designation}</h4>
                   <p className="client-review-mobile">{item.review}</p>
                 </Carousel.Item>
               );
@@ -149,6 +150,7 @@ const TestimonialCar = () => {
                 />
                 <div className="client-image-background-tablet" />
                 <h3 className="fontlink client-name-tablet">{item.name}</h3>
+                
                 <p className="client-review-tablet">{item.review}</p>
               </Carousel.Item>
             );

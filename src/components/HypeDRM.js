@@ -73,7 +73,7 @@ const HypeDRM = () => {
         </div>
       </BrowserView>
       <CustomView condition={deviceType === "mobile"}>
-        <div className="container fontlink" style={{ color: "#535353" }}>
+        <div className="container fontlink" style={{ color: "#535353" , marginLeft:'5vw'}}>
           <div className="row align-items-start">
             <div className="col-5" style={{ marginRight: "5vw" }}>
               <img className="ind-we-cater-icon" src={img1} alt=""></img>

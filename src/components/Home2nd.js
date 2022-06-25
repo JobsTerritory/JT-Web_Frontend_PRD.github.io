@@ -1,8 +1,8 @@
 import React from "react";
 import { CustomView, deviceType } from "react-device-detect";
-import img1 from "../images/Group163.png";
-import img2 from "../images/Group227.png";
-import img3 from "../images/Group421.png";
+import img1 from "../images/Group163.gif";
+import img2 from "../images/Group227.gif";
+import img3 from "../images/Group421.gif";
 
 const Home2nd = () => {
   return (
@@ -10,7 +10,7 @@ const Home2nd = () => {
       <CustomView
         condition={deviceType === "browser" || deviceType === "mobile"}
       >
-        <div className="pb-5 text-5xl pt-[15vh] font-bold leading-relaxed">
+        <div className="pb-5   text-1xl text-10xl-lg ml-5 pt-[15vh] font-bold leading-relaxed">
           Make the right hires, faster with <br /> the world's leading
           recruiting software
         </div>

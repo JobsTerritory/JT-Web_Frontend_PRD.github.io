@@ -34,7 +34,7 @@ function ClientsAlt() {
           alt={logo.name}
           onDragStart={handleDragStart}
           role="presentation"
-          className="w-40 h-40"
+          className="w-28 ml-5  "
         />
       </div>
     );
@@ -46,7 +46,7 @@ function ClientsAlt() {
 
   return (
     <div style={{ backgroundImage: `url(${bgImg})`, padding: "3vw" }}>
-      <h1 className="mb-8 ClientHeading">OUR CLIENTS</h1>
+      <h1 className="mb-8  ClientHeading">OUR CLIENTS</h1>
       <div className="p-10 rounded-lg bg-white/20">
         <AliceCarousel
           mouseTracking

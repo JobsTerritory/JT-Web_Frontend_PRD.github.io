@@ -3,6 +3,7 @@ import { BrowserView, MobileView } from "react-device-detect";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Mnav from "./mNav/Mnav";
+import Jtlogo from './images/JTlogo.png'
 
 class Navbar extends Component {
   render() {
@@ -27,6 +28,7 @@ class Navbar extends Component {
                 className="collapse navbar-collapse pull-right"
                 id="navbarSupportedContent"
               >
+                <img src={Jtlogo} style={{width:'10vw'}}/>
                 <ul className="mb-2 ml-10 navbar-nav mb-lg-0">
                   <Link to="/" style={{ textDecoration: "none" }}>
                     <li className="nav-item">

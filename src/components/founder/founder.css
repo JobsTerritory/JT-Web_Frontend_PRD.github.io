@@ -69,6 +69,8 @@
   background-size: 40px 40px;
 }
 .conten {
+  position: absolute;
+  margin-top: -10vw;
   width: 40vw;
   height: 80vh;
 }
@@ -127,6 +129,8 @@
     width: 100%;
     height: fit-content;
     text-align: center;
+    margin-top: 10vw;
+    margin-left: 2vw;
   }
   .text {
     font-size: 1.5em;
