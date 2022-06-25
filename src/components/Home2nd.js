@@ -1,12 +1,12 @@
 import React from "react";
 import { CustomView, deviceType } from "react-device-detect";
 import img1 from "../images/Group163.gif";
-import img2 from "../images/Group227.gif";
-import img3 from "../images/Group421.gif";
+import img3 from "../images/Group227.gif";
+import img2 from "../images/Group421.gif";
 
 const Home2nd = () => {
   return (
-    <div className="pt-16 fontLink home2nd">
+    <div className="lg:pt-16 fontLink home2nd">
       <CustomView
         condition={deviceType === "browser" || deviceType === "mobile"}
       >

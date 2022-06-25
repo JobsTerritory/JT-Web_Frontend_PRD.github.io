@@ -87,11 +87,11 @@ const Contact = () => {
               setvisibility(false);
             }}
           >
-            <div className="flex mb-4 space-x-3">
+            <div className="flex justify-center mx-3 mt-3 mb-4 space-x-3 lg:mx-0">
               <input
                 type="text"
                 name="fname"
-                className=" outline-none p-[5px] mb-[1vw] w-full "
+                className=" outline-none p-[5px] mb-[1vw] w-[9em]  lg:w-[15.4em] "
                 placeholder="First name"
                 onChange={handlechange}
                 required
@@ -99,7 +99,7 @@ const Contact = () => {
               <input
                 type="text"
                 name="lname"
-                className=" outline-none p-[5px] mb-[1vw] w-full "
+                className=" outline-none p-[5px] mb-[1vw] w-[9em] lg:w-[15.4em] "
                 placeholder="Last name"
                 onChange={handlechange}
                 required
@@ -115,12 +115,12 @@ const Contact = () => {
                 required
               />
             </div>
-            <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center justify-center mx-4 mb-4 lg:mx-0">
               <input
                 type="numeric"
                 ref={phoneRef}
                 name="phoneNumber"
-                className=" outline-none p-[5px] mb-[1vw] w-full"
+                className=" outline-none p-[5px] mb-[1vw] w-[14em] lg:w-[27em]"
                 placeholder="Your phone number"
                 onChange={handlechange}
                 required
@@ -129,7 +129,7 @@ const Contact = () => {
                 <button
                   type="button"
                   onClick={getOTP}
-                  className="text-xs ml-3 bg-[#e9158e] px-[5px] py-[1px] mt-1 text-white disabled:bg-gray-400 rounded-md"
+                  className="text-xs ml-3 bg-[#e9158e] px-3 py-2 mt-1 text-white disabled:bg-gray-400 rounded-md"
                 >
                   Get OTP
                 </button>
