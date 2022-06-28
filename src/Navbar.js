@@ -3,7 +3,7 @@ import { BrowserView, MobileView } from "react-device-detect";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Mnav from "./mNav/Mnav";
-import Jtlogo from "./images/JTlogo.png";
+import Jtlogo from "./images/JTlogo.gif";
 
 class Navbar extends Component {
   render() {
