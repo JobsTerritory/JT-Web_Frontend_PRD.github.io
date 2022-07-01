@@ -81,14 +81,14 @@ class Navbar extends Component {
                       aria-labelledby="navbarDropdown"
                       style={{ color: nav_txt_col }}
                     >
-                      <Link to="/founder" style={{ textDecoration: "none" }}>
+                      {/* <Link to="/founder" style={{ textDecoration: "none" }}>
                         <li
                           className="font-bold dropdown-item"
                           style={{ color: nav_drop_color }}
                         >
                           Founders Pledge
                         </li>
-                      </Link>
+                      </Link> */}
                       <Link
                         to="/aboutus"
                         aria-labelledby="navbarDropdown"
